@@ -1,4 +1,4 @@
 package uz.unzosoft.unbook.network
 
-class BookListModel {
-}
+data class BookListModel(val items: ArrayList<VolumeInfo>)
+
