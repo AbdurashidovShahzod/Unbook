@@ -7,7 +7,7 @@ import java.util.*
 
 class RetroInstance {
     companion object {
-        val BASE_URL: String = "https://www.googleapis.com/books/v1/"
+        private const val BASE_URL: String = "https://www.googleapis.com/books/v1/"
 
         fun getRetrofitInstance(): Retrofit {
             val retrofit = Retrofit.Builder()
